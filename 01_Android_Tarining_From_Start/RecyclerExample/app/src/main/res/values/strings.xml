@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">RecyclerExample</string>
+
+   <string-array name="android_versions">
+       <item>CupCake</item>
+       <item>Donut</item>
+       <item>Eclair</item>
+       <item>Froyo</item>
+       <item>Gingerbread</item>
+       <item>Honeycomb</item>
+       <item>Ice Cream Sandwich</item>
+       <item>Jelly bean</item>
+       <item>KitKat</item>
+       <item>Lollypop</item>
+       <item>Marshmellow</item>
+       <item>Nougat</item>
+       <item>Oreo</item>
+       <item>Android Pie</item>
+       </string-array>
+
+
+
+</resources>
