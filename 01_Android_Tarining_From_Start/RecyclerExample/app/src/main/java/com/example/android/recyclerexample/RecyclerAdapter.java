@@ -6,6 +6,7 @@ import android.view.LayoutInflater;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class RecyclerAdapter extends RecyclerView.Adapter <RecyclerAdapter.MyViewHolder>{
@@ -47,5 +48,12 @@ public class RecyclerAdapter extends RecyclerView.Adapter <RecyclerAdapter.MyVie
             super(itemView);
             VersionName = itemView;
         }
+    }
+
+    public void updatelist(List<String> newList)
+    {
+        list = new ArrayList<>();
+        list.addAll(newList);
+        notifyDataSetChanged();
     }
 }
